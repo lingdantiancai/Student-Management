@@ -1,0 +1,13 @@
+def searchByID(stulist, ID): 
+    for i in range(len(stulist)):
+        if stulist[i].ID == ID:
+            print u"姓名：",
+            print stulist[i].name,
+            print "  ",
+            print u"学号:",
+            print stulist[i].ID,
+            print "   ",
+            print u"分数:",
+            print stulist[i].score
+            return True
+    return False
